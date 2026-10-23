@@ -10,10 +10,28 @@
   },
   "private": true,
   "dependencies": {
-    "@replit/connectors-sdk": "^0.4.3"
+    "@prisma/composer": "0.28.0",
+    "@prisma/composer-prisma-cloud": "0.28.0",
+    "@replit/connectors-sdk": "^0.4.3",
+    "alchemy": "2.0.0-beta.78",
+    "effect": "4.0.0-rc.115"
   },
   "devDependencies": {
     "prettier": "^3.9.10",
+    "prisma": "8.0.0-rc.21",
     "typescript": "~5.9.3"
+  },
+  "pnpm": {
+    "overrides": {
+      "@effect/platform-bun": "4.0.0-rc.115",
+      "@effect/platform-node": "4.0.0-rc.115",
+      "@effect/platform-node-shared": "4.0.0-rc.115",
+      "@effect/sql-d1": "4.0.0-rc.115",
+      "@effect/sql-mysql2": "4.0.0-rc.115",
+      "@effect/sql-pg": "4.0.0-rc.115",
+      "@effect/sql-sqlite-do": "4.0.0-rc.115",
+      "@effect/vitest": "4.0.0-rc.115",
+      "effect": "4.0.0-rc.115"
+    }
   }
 }
