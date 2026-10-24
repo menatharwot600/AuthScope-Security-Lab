@@ -60,4 +60,5 @@ Thumbs.db
 # Secrets and local environment files
 .env
 .env.*
-!.env.example
+!.env.example.prisma-composer/
+.alchemy/
